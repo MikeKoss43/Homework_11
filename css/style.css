@@ -1,0 +1,107 @@
+@import 'null.css';
+
+
+body {
+	font-family: 'Roboto';
+	color: rgba(255, 255, 255, 1);
+}
+
+.wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+	min-height: 100%;
+	overflow: hidden;
+	
+}
+
+.header__image {
+	margin-top: -30%;
+}
+
+.dog__block {
+	
+	background-color: rgba(72, 76, 154, 1);
+   max-width: 1020px;
+   margin: 0 auto;
+	max-height: 700px;
+	border-radius: 40px;
+	border: 1px solid black;
+   position: relative;
+	top: -74px;
+	position: relative;
+	
+	
+}
+
+.name__subtitle {
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+   font-size: 12px;
+	font-weight: 700;
+	margin: 100px 0px 33px 87px;
+	line-height: 24px;
+	vertical-align: auto;
+	
+}
+
+
+.name__subtitle::before {
+	content: '';
+	background: url('../logo/Mark.png') 0 -3px / 20px 20px no-repeat;
+	width: 25px;
+	height: 25px;
+	padding-left: 32px;
+}
+
+
+.name__title {
+	font-style: normal;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0px 0px 36px 87px;
+	line-height: 42px;
+	max-width: 583px;
+	
+}
+
+.name__title::before {
+	content: " ";
+
+
+background: url('../image/Stylize.png') 0 0/ 201px 317px no-repeat;
+content: " ";
+display: block;
+margin: -265px 0px -70px 800px ;
+width: 201px;
+height: 317px;
+background-repeat: no-repeat;
+background-position: top;
+z-index: 10;
+position: relative;
+
+}
+
+
+
+
+.block__text {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 87px 0px 87px;
+	line-height: 24px;
+	color: rgba(245, 245, 245, 1);
+}
+
+
+.block__image-two {
+	position: relative;
+	top: -85px;
+	left: -20px;
+}
+
+.dog__image {
+	position: relative;
+	top: -390px;
+	text-align: center;
+}
+
